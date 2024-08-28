@@ -8,10 +8,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'nx run todo-list:serve',
-        production: 'nx run todo-list:preview',
+        default: 'nx run todos:serve',
+        production: 'nx run todos:preview',
       },
-      ciWebServerCommand: 'nx run todo-list:preview',
+      ciWebServerCommand: 'nx run todos:preview',
       ciBaseUrl: 'http://localhost:4300',
     }),
     baseUrl: 'http://localhost:4200',
